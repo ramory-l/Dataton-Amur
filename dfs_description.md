@@ -27,9 +27,9 @@ Cобран из 181 csv-файлов
 
 date datetime64[ns] - дата измерения
 
-ice_high Толщина льда (см)
+ice_high - Толщина льда (см)
 
-snow_high Высота снега (см)
+snow_high - Высота снега (см)
 
 place_code Место измер - код места ледовых измерений
 
@@ -38,49 +38,49 @@ id - номер гидрологического поста
 ## 3. Датафрейм meteo  
 Cобран из 108 файлов meteo/NNNNNNN.csv, где NNNNNNN номер синтаптической станции. Cодержит архив наблюдений на метеостанциях сети Росгидромета с 1985 по 2018, всего 108 станций  
 
-station_name Название станции 
+station_name - Название станции 
 
-station_id Идентификатор станции   
+station_id - Идентификатор станции   
 
-visibility_distance Горизонтальная дальность видимости  
+visibility_distance - Горизонтальная дальность видимости  
 
-visibility_distance_quality Признак качества  
+visibility_distance_quality - Признак качества  
 
-wind_direction Направление ветра  
+wind_direction - Направление ветра  
 
-wind_direction_quality Признак качества  
+wind_direction_quality - Признак качества  
 
-wind_speed_avg Средняя скорость ветра  
+wind_speed_avg - Средняя скорость ветра  
 
-wind_speed_avg_quality Признак качества  
+wind_speed_avg_quality - Признак качества  
 
-wind_speed_sign Признак наличия знака >  
+wind_speed_sign - Признак наличия знака >  
 
-wind_speed_max Максимальное скорость ветра  
+wind_speed_max - Максимальное скорость ветра  
 
-wind_speed_max_quality Признак качества  
+wind_speed_max_quality - Признак качества  
 
-wind_speed_max_sign Признак наличия знака >  
+wind_speed_max_sign - Признак наличия знака >  
 
-precipitation_amount Сумма осадков за период между сроками  
+precipitation_amount - Сумма осадков за период между сроками  
 
-precipitation_amount_quality Признак качества  
+precipitation_amount_quality - Признак качества  
 
-temperature_ground Температура поверхности почвы в срок  
+temperature_ground - Температура поверхности почвы в срок  
 
-temperature_ground_quality Признак качества  
+temperature_ground_quality - Признак качества  
 
-temperature_air Температура воздуха в срок по сухому терм-ру  
+temperature_air - Температура воздуха в срок по сухому терм-ру  
 
-temperature_air_quality Признак качества  
+temperature_air_quality - Признак качества  
 
-humidity Относительная влажность воздуха в срок  
+humidity - Относительная влажность воздуха в срок  
 
-humidity_quality Признак качества  
+humidity_quality - Признак качества  
 
-date Срок наблюдения  
+date - Срок наблюдения  
 
-id Номер метеостанции
+id - Номер метеостанции
 
 ## 4. Датафрейм meteo_new
 Содержит данные наблюдений на метеостанциях за период с 01-01-1984 по 31-03-2020. Количество станций меньше (только те, что входят сеть Всемирной Метеорологической Организации), чем в прошлом, но больше полей и охват
@@ -148,8 +148,8 @@ id - Номер метеостанции
 ## 5. Датафрейм hydro_2018_2020  
 Cобран из 1 файла Содержит ежедневные значения уровня воды на гидрологический постах за период с 2018 по настоящее время.
 
-date дата замера
+date - дата замера
 
-level_water максимальный уровень за день
+level_water - максимальный уровень за день
 
-id номер гидрологического поста
+id - номер гидрологического поста
